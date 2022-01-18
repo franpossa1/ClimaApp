@@ -21,8 +21,23 @@
 
 * body .container {
   border-radius: 7px;
-  background-color: rgba(0, 0, 0, 0.274);
+  background-color: rgba(0, 0, 0, 0.705);
   border: 3px solid black;
   padding: 45px;
+  color: white;
+}
+
+* body .container .buscador input {
+  border-radius: 5px;
+  padding: 6px;
+}
+
+* body .container .buscador button {
+  border-radius: 5px;
+  padding: 4px;
+}
+
+* body .container .buscador button:hover {
+  background-color: black;
   color: white;
 }
