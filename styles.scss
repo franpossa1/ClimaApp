@@ -18,14 +18,19 @@
       padding: 45px;
       color: white;
       .buscador {
+        
           input {
               border-radius: 5px;
-                padding: 6px;
+                padding: 1em;
                 margin: .8em .8em .8em 0;
+                font-family:"Montserrat", sans-serif;
+                font-weight: 700;
             }
             button{
+              padding: 1em;
                 border-radius: 5px;
-                padding: 4px;
+                font-family:"Montserrat", sans-serif;
+                font-weight: 700;
                 &:hover {
                     background-color: black;
                     color: white;
@@ -47,6 +52,21 @@ body{
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 0.7em;
+    .buscador{
+      
+      input, button {
+        padding: 0.4em;
+
+      }
+    }
+    div {
+      margin-top: 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
   }
  
 
