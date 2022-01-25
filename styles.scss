@@ -2,12 +2,12 @@
   margin: 0px;
   box-sizing: border-box;
   body {
-   margin: auto;
+    margin: auto;
     max-height: 1440px;
     max-width: 1440px;
     font-size: 2.5em;
     display: flex;
-     
+
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
@@ -18,62 +18,52 @@
       padding: 45px;
       color: white;
       .buscador {
-        
-          input {
-              border-radius: 5px;
-                padding: 1em;
-                margin: .8em .8em .8em 0;
-                font-family:"Montserrat", sans-serif;
-                font-weight: 700;
-            }
-            button{
-              padding: 1em;
-                border-radius: 5px;
-                font-family:"Montserrat", sans-serif;
-                font-weight: 700;
-                &:hover {
-                    background-color: black;
-                    color: white;
-                }
-            }
+        input {
+          border-radius: 5px;
+          padding: 1em;
+          margin: 0.8em 0.8em 0.8em 0;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 700;
+        }
+        button {
+          padding: 1em;
+          border-radius: 5px;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 700;
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+        }
       }
     }
   }
- 
 }
 
-@media (max-width: 600px) { 
-  *{
-body{
-  font-size: 1em;
-  .container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding: 0.7em;
-    .buscador{
-      
-      input, button {
-        padding: 0.4em;
-
+@media (max-width: 600px) {
+  * {
+    body {
+      font-size: 1em;
+      .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 0.7em;
+        .buscador {
+          input,
+          button {
+            padding: 0.4em;
+          }
+        }
+        div {
+          margin-top: 1em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
       }
     }
-    div {
-      margin-top: 1em;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-    }
   }
- 
-
 }
-
-
-  }
-
-
- }
